@@ -223,9 +223,8 @@
 
 ## 🚀 部署
 
-可以通过 Vercel 进行部署
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fzonemeen%2Fnetease-recent-profile)
+可以通过 TencentEOPages 进行部署
+//todo
 
 或者部署到自己的服务器，具体方法如下：
 
