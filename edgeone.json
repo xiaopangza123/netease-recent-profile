@@ -1,0 +1,35 @@
+{
+  "name": "netease-recent-profile",
+  "buildCommand": "echo 'No build required'",
+  "installCommand": "npm install",
+  "outputDirectory": ".",
+  "nodeVersion": "22.11.0",
+  "headers": [
+    {
+      "source": "/*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
+    },
+    {
+      "source": "/api/*",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "max-age=300"
+        }
+      ]
+    }
+  ]
+}
